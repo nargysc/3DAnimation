@@ -65,7 +65,6 @@ perspective: 1000px;
   align-items: center;
   text-align: center;
 
-  
 }
 .info h3 {
     font-size: 1.3rem;
@@ -73,8 +72,6 @@ perspective: 1000px;
     font-weight: 200;
     color: rgb(164, 164, 164);
     transition: all 0.75s ease-out;
-    transform-style: preserve-3d;
-
 
 }
 
@@ -82,6 +79,8 @@ perspective: 1000px;
    display: flex;
   justify-content: space-between;
   transition: all 0.75s ease-out;
+    transform-style: preserve-3d;
+
 }
 .grindtype button {
     padding: 0.2rem 2rem;
@@ -93,6 +92,8 @@ perspective: 1000px;
     color: rgb(164, 164, 164);
     font-weight: 500;
     font-family: 'Poppins',sans-serif;
+        transform-style: preserve-3d;
+
 }
 
 button.active {
@@ -102,11 +103,14 @@ button.active {
 .grindtype button:hover {
     background:rgb(164, 164, 164);
     color: white;
+
 }
 
 .purchase {
   margin-top: 2rem;
   transition: all 0.75s ease-out;
+      transform-style: preserve-3d;
+
 }
 .purchase button {
 width: 100%;
