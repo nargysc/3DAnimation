@@ -3,8 +3,8 @@ const container = document.querySelector(".container");
 const title = document.querySelector(".title");
 const coffee = document.querySelector('.coffee img');
 const purchase = document.querySelector('.purchase button');
-const desc = document.querySelectorAll(".info");
-const grindtype = document.querySelector('.grindtype')
+const desc = document.querySelectorAll(".info h3");
+const grindtype = document.querySelector('.grindtype');
 //moving animation 
 container.addEventListener("mousemove", (e) => {
   let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
