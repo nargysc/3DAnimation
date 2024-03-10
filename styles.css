@@ -127,3 +127,48 @@ font-weight:bolder;
     color: rgb(68, 58, 58);
     background:rgb(164, 164, 164);
 }
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 80%; /* Adjust as needed */
+  }
+  .card {
+    width: 90%; 
+    padding: 0rem 2rem; 
+  }
+  .circle {
+    margin-top: 90px;
+  }
+  .coffee img {
+    margin-top: 90px;
+  }
+  .grindtype button{
+display: none;
+  }
+  .purchase {
+    display: none;
+  }
+}
+
+/* For screens between 768px and 1024px (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 70%; /* Adjust as needed */
+  }
+  .card {
+    width: 70%; /* Adjust as needed */
+    padding: 0rem 3rem; /* Adjust as needed */
+  }
+}
+
+/* For screens larger than 1024px (desktops) */
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 50%; /* Same as original */
+  }
+  .card {
+    width: 35rem; /* Same as original */
+    padding: 0rem 5rem; /* Same as original */
+  }
+}
